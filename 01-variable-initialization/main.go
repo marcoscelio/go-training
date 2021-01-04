@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"./hello"
 )
 
 func main() {
@@ -25,5 +26,8 @@ func main() {
 	fmt.Printf(fmt.Sprintf("b value is %s\n", b))
 	fmt.Printf(fmt.Sprintf("c value is %d\n", c))
 	fmt.Printf(fmt.Sprintf("d value is %s\n", d))
+
+
+	hello.Hello()
 
 }
